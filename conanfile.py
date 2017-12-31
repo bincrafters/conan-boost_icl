@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostIclConan(ConanFile):
     name = "boost_icl"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-icl"
+    url = "https://github.com/bincrafters/conan-boost_icl"
 
     lib_short_names = ["icl"]
     is_header_only = True
