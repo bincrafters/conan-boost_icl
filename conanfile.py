@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostIclConan(base.BoostBaseConan):
     name = "boost_icl"
+    version = "1.67.0"
     url = "https://github.com/bincrafters/conan-boost_icl"
     lib_short_names = ["icl"]
     header_only_libs = ["icl"]
