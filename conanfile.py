@@ -4,28 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostIclConan(base.BoostBaseConan):
     name = "boost_icl"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_icl"
-    lib_short_names = ["icl"]
-    header_only_libs = ["icl"]
-    b2_requires = [
-        "boost_assert",
-        "boost_concept_check",
-        "boost_config",
-        "boost_container",
-        "boost_core",
-        "boost_date_time",
-        "boost_detail",
-        "boost_iterator",
-        "boost_move",
-        "boost_mpl",
-        "boost_range",
-        "boost_rational",
-        "boost_static_assert",
-        "boost_type_traits",
-        "boost_utility"
-    ]
+    version = "1.70.0"
